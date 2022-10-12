@@ -1,0 +1,55 @@
+PODS:
+  - barcode_scan2 (0.0.1):
+    - Flutter
+    - MTBBarcodeScanner
+    - SwiftProtobuf
+  - camera_avfoundation (0.0.1):
+    - Flutter
+  - DynamsoftBarcodeReader (9.0.0)
+  - Flutter (1.0.0)
+  - flutter_barcode_sdk (2.0.0):
+    - DynamsoftBarcodeReader (= 9.0.0)
+    - Flutter
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - MTBBarcodeScanner (5.0.11)
+  - SwiftProtobuf (1.20.2)
+
+DEPENDENCIES:
+  - barcode_scan2 (from `.symlinks/plugins/barcode_scan2/ios`)
+  - camera_avfoundation (from `.symlinks/plugins/camera_avfoundation/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_barcode_sdk (from `.symlinks/plugins/flutter_barcode_sdk/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - DynamsoftBarcodeReader
+    - MTBBarcodeScanner
+    - SwiftProtobuf
+
+EXTERNAL SOURCES:
+  barcode_scan2:
+    :path: ".symlinks/plugins/barcode_scan2/ios"
+  camera_avfoundation:
+    :path: ".symlinks/plugins/camera_avfoundation/ios"
+  Flutter:
+    :path: Flutter
+  flutter_barcode_sdk:
+    :path: ".symlinks/plugins/flutter_barcode_sdk/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+
+SPEC CHECKSUMS:
+  barcode_scan2: 0af2bb63c81b4565aab6cd78278e4c0fa136dbb0
+  camera_avfoundation: 07c77549ea54ad95d8581be86617c094a46280d9
+  DynamsoftBarcodeReader: 906e1fc9dfde3cf55020f39cfaf551a28d9e278e
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_barcode_sdk: 0ea7e61c459da8c3a7944b40341a331ac40316ed
+  image_picker_ios: b786a5dcf033a8336a657191401bfdf12017dabb
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  SwiftProtobuf: 9f458aaa7844a2fc0b910053e66578bc4e2da9c1
+
+PODFILE CHECKSUM: 7adbc9d59f05e1b01f554ea99b6c79e97f2214a2
+
+COCOAPODS: 1.11.3
