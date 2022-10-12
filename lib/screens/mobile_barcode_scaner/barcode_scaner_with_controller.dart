@@ -1,3 +1,4 @@
+import 'package:barcodescaner/screens/mobile_barcode_scaner/mobile_barcode_scaner.dart';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
@@ -43,6 +44,8 @@ class _BarcodeScannerWithControllerState
                   setState(() {
                     this.barcode = barcode.rawValue;
                   });
+                  // Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder:((context) =>  MyHome(barcode: this.barcode,))), false);
+                  Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder:((context) =>  MyHome(barcode: this.barcode,))), (route) => false);
                 },
               ),
               Align(

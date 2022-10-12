@@ -5,7 +5,8 @@ import 'package:flutter/material.dart';
 
 
 class MyHome extends StatelessWidget {
-  const MyHome({Key? key}) : super(key: key);
+  dynamic barcode;
+  MyHome({Key? key, required this.barcode}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -49,6 +50,7 @@ class MyHome extends StatelessWidget {
               },
               child: const Text('MobileScanner without Controller'),
             ),
+            Text('${this.barcode}')
           ],
         ),
       ),
